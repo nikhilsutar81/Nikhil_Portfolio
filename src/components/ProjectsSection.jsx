@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
-    githubUrl: "#",
+  githubUrl: "https://github.com/nikhilsutar81",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "#",
-    githubUrl: "#",
+  githubUrl: "https://github.com/nikhilsutar81",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
-    githubUrl: "#",
+  githubUrl: "https://github.com/nikhilsutar81",
   },
 ];
 
@@ -96,13 +96,20 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 flex flex-col items-center gap-4">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/nikhilsutar81"
           >
             Check My Github <ArrowRight size={16} />
+          </a>
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            href="/Nikhil-Sutar-CV.zip"
+            download
+          >
+            Download CV
           </a>
         </div>
       </div>
