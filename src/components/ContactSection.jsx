@@ -38,7 +38,9 @@ export const ContactSection = () => {
                 <a href="mailto:nikhilsutar81@gmail.com" className="p-3 rounded-full bg-primary/10 mb-1 block" aria-label="Send Email">
                   <Mail className="h-6 w-6 text-primary" />
                 </a>
-                <h4 className="font-medium">Email</h4>
+                <a href="mailto:nikhilsutar81@gmail.com" className="font-medium hover:text-primary transition-colors cursor-pointer" aria-label="Send Email">
+                  Email
+                </a>
                 <a
                   href="mailto:nikhilsutar81@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -47,13 +49,15 @@ export const ContactSection = () => {
                 </a>
               </div>
               <div className="flex flex-col items-center text-center gap-2">
-                <div className="p-3 rounded-full bg-primary/10 mb-1">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <h4 className="font-medium">Phone</h4>
+                <a href="tel:+91-9137888218" className="p-3 rounded-full bg-primary/10 mb-1 block" aria-label="Call Phone">
+                  <Phone className="h-6 w-6 text-primary cursor-pointer" />
+                </a>
+                <a href="tel:+91-9137888218" className="font-medium hover:text-primary transition-colors cursor-pointer" aria-label="Call Phone">
+                  Phone
+                </a>
                 <a
                   href="tel:+91-9137888218"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
                 >
                   +91 - 9137888218
                 </a>
@@ -91,16 +95,9 @@ export const ContactSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
+                  className="flex items-center gap-2"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"   // increase for sharper edges
-                    height="22"
-                    viewBox="0 0 32 32"
-                    fill="black"
-                  >
-                    <path d="M16 0C7.164 0 0 7.163 0 16c0 2.828.735 5.59 2.133 8.031L0 32l8.256-2.133A15.917 15.917 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.09c-2.573 0-5.086-.676-7.295-1.953l-.523-.305-4.914 1.27 1.309-4.8-.34-.552C3.597 21.213 2.91 18.646 2.91 16 2.91 8.88 8.88 2.91 16 2.91S29.09 8.88 29.09 16 23.12 29.09 16 29.09zm8.114-9.49c-.444-.222-2.633-1.296-3.041-1.442-.408-.148-.706-.222-.997.222-.29.445-1.142 1.442-1.4 1.732-.257.29-.514.326-.958.111-.444-.222-1.875-.69-3.572-2.192-1.32-1.178-2.214-2.633-2.471-3.077-.257-.444-.028-.685.194-.9.2-.2.444-.518.666-.777.222-.26.296-.445.444-.74.148-.296.074-.555-.037-.777-.111-.222-.997-2.405-1.368-3.29-.359-.862-.726-.742-.997-.757-.257-.015-.555-.018-.852-.018-.296 0-.777.111-1.183.555-.408.445-1.555 1.518-1.555 3.7s1.59 4.29 1.814 4.588c.222.296 3.136 4.787 7.6 6.707.957.414 1.705.662 2.293.849.963.306 1.841.263 2.534.16.773-.116 2.373-.972 2.708-1.91.334-.938.334-1.661.231-1.91-.096-.247-.37-.37-.814-.592z" />
-                  </svg>
+                  <MessageSquare className="h-6 w-6 text-black-500" />
                 </a>
               </div>
             </div>
