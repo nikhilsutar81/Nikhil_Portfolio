@@ -3,25 +3,25 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 75, category: "frontend" },
-  { name: "React", level: 85, category: "frontend" },
-  { name: "TypeScript", level: 45, category: "frontend" },
-  { name: "Tailwind CSS", level: 80, category: "frontend" },
-  { name: "Next.js", level: 40, category: "frontend" },
+  { name: "HTML", level: 90, category: "frontend", image: "/skills/html.svg" },
+  { name: "JavaScript", level: 75, category: "frontend", image: "/skills/javascript.png" },
+  { name: "React", level: 85, category: "frontend", image: "/skills/react.png" },
+  { name: "TypeScript", level: 45, category: "frontend", image: "/skills/typescript.png" },
+  { name: "Tailwind CSS", level: 80, category: "frontend", image: "/skills/tailwind.png" },
+  { name: "Next.js", level: 40, category: "frontend", image: "/skills/nextjs.png" },
 
   // Backend
-  { name: "Node.js", level: 70, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 80, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "Node.js", level: 70, category: "backend", image: "/skills/node.png" },
+  { name: "Express", level: 75, category: "backend", image: "/skills/express.png" },
+  { name: "MongoDB", level: 80, category: "backend", image: "/skills/mongodb.png" },
+  { name: "PostgreSQL", level: 65, category: "backend", image: "/skills/postgres.png" },
+  { name: "GraphQL", level: 60, category: "backend", image: "/skills/graphql.png" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 75, category: "tools" },
-  { name: "VS Code", level: 90, category: "tools" },
+  { name: "Git/GitHub", level: 90, category: "tools", image: "/skills/git.png" },
+  { name: "Docker", level: 70, category: "tools", image: "/skills/docker.png" },
+  { name: "Figma", level: 75, category: "tools", image: "/skills/figma.png" },
+  { name: "VS Code", level: 90, category: "tools", image: "/skills/vscode.png" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -60,11 +60,21 @@ export const SkillsSection = () => {
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
-              className="bg-card p-6 rounded-lg shadow-xs card-hover"
+              className="bg-card p-6 rounded-lg shadow-xs card-hover flex flex-col items-center text-center"
             >
-              <div className="text-left mb-4">
-                <h3 className="font-semibold text-lg"> {skill.name}</h3>
+              {/* Skill Image */}
+              <img
+                src={skill.image}
+                alt={skill.name}
+                className="w-12 h-12 mb-4 object-contain"
+              />
+
+              {/* Skill Name */}
+              <div className="mb-4">
+                <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
+
+              {/* Progress Bar */}
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
                   className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
@@ -72,7 +82,8 @@ export const SkillsSection = () => {
                 />
               </div>
 
-              <div className="text-right mt-1">
+              {/* Skill Percentage */}
+              <div className="text-right mt-1 w-full">
                 <span className="text-sm text-muted-foreground">
                   {skill.level}%
                 </span>
