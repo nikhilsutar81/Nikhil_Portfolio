@@ -3,36 +3,51 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "SchedRx",
+    description: "Full Stack Doctors Appointment Booking System",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-  githubUrl: "https://github.com/nikhilsutar81",
+    tags: ["MERN Stack", "TailwindCSS", "Razorpay"],
+    demoUrl: "https://schedrx-client.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/SchedRx",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "EternaCart",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Full Stack E-Commerce Website",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-  githubUrl: "https://github.com/nikhilsutar81",
+    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
+    demoUrl: "https://eternacart-client.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/EternaCart",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Bitess",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full Stack Food Ordering Website",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-  githubUrl: "https://github.com/nikhilsutar81",
+    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
+    demoUrl: "https://bitess-client.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/Bitess",
   },
 ];
 
+
+import { useState } from "react";
+
 export const ProjectsSection = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState(null);
+
+  const openModal = (imgSrc) => {
+    setModalImage(imgSrc);
+    setModalOpen(true);
+  };
+  const closeModal = () => {
+    setModalOpen(false);
+    setModalImage(null);
+  };
+
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
@@ -52,18 +67,18 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="w-full aspect-video overflow-hidden cursor-pointer" onClick={() => openModal(project.image)}>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105 bg-black"
                 />
               </div>
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground" key={tag}>
                       {tag}
                     </span>
                   ))}
@@ -95,6 +110,26 @@ export const ProjectsSection = () => {
             </div>
           ))}
         </div>
+
+        {/* Modal for full image view */}
+        {modalOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+            <div className="relative">
+              <img
+                src={modalImage}
+                alt="Full Project"
+                className="max-w-full max-h-[80vh] rounded-lg shadow-lg"
+              />
+              <button
+                onClick={closeModal}
+                className="absolute top-2 right-2 bg-white text-black rounded-full px-3 py-1 text-lg font-bold shadow hover:bg-gray-200"
+                aria-label="Close"
+              >
+                &times;
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className="text-center mt-12 flex flex-col items-center gap-4">
           <a
