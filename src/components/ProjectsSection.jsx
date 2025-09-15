@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "SchedRx",
-    description: "Full Stack Doctors Appointment Booking System",
+    description: "Full-Stack Doctor Appointment Booking System with Three-Tier Authentication: Patients, Doctors, and Admin",
     image: "/projects/project1.png",
     tags: ["MERN Stack", "TailwindCSS", "Razorpay"],
     demoUrl: "https://schedrx-client.vercel.app/",
@@ -13,8 +13,7 @@ const projects = [
   {
     id: 2,
     title: "EternaCart",
-    description:
-      "Full Stack E-Commerce Website",
+    description: "Full-Stack E-Commerce Platform with Secure User Authentication, Product Management, and Payment Integration",
     image: "/projects/project2.png",
     tags: ["MERN Stack", "TailwindCSS", "Stripe"],
     demoUrl: "https://eternacart-client.vercel.app/",
@@ -23,8 +22,7 @@ const projects = [
   {
     id: 3,
     title: "Bitess",
-    description:
-      "Full Stack Food Ordering Website",
+    description: "Full-Stack Food Ordering and Delivery System with Real-Time Order Tracking and and Efficient Management",
     image: "/projects/project3.png",
     tags: ["MERN Stack", "TailwindCSS", "Stripe"],
     demoUrl: "https://bitess-client.vercel.app/",
