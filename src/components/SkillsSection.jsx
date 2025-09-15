@@ -8,14 +8,14 @@ const skills = [
   { name: "JavaScript", level: 75, category: "frontend", image: "/skills/javascript.svg" },
   { name: "React", level: 85, category: "frontend", image: "/skills/react.svg" },
   { name: "TypeScript", level: 45, category: "frontend", image: "/skills/typescript.svg" },
-  { name: "Tailwind CSS", level: 80, category: "frontend", image: "/skills/tailwind.svg" },
+  { name: "Tailwind CSS", level: 80, category: "frontend", image: "/skills/tailwindcss.svg" },
   { name: "Next.js", level: 40, category: "frontend", image: "/skills/nextjs.svg" },
 
   // Backend
-  { name: "Node.js", level: 70, category: "backend", image: "/skills/node.svg" },
+  { name: "Node.js", level: 70, category: "backend", image: "/skills/nodejs.svg" },
   { name: "Express", level: 75, category: "backend", image: "/skills/express.svg" },
   { name: "MongoDB", level: 80, category: "backend", image: "/skills/mongodb.svg" },
-  { name: "PostgreSQL", level: 65, category: "backend", image: "/skills/postgres.svg" },
+  { name: "PostgreSQL", level: 65, category: "backend", image: "/skills/postgressql.svg" },
   { name: "GraphQL", level: 60, category: "backend", image: "/skills/graphql.svg" },
 
   // Tools
