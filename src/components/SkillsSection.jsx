@@ -4,24 +4,26 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Frontend
   { name: "HTML", level: 90, category: "frontend", image: "/skills/html.svg" },
-  { name: "JavaScript", level: 75, category: "frontend", image: "/skills/javascript.png" },
-  { name: "React", level: 85, category: "frontend", image: "/skills/react.png" },
-  { name: "TypeScript", level: 45, category: "frontend", image: "/skills/typescript.png" },
-  { name: "Tailwind CSS", level: 80, category: "frontend", image: "/skills/tailwind.png" },
-  { name: "Next.js", level: 40, category: "frontend", image: "/skills/nextjs.png" },
+  { name: "CSS", level: 80, category: "frontend", image: "/skills/css.svg" },
+  { name: "JavaScript", level: 75, category: "frontend", image: "/skills/javascript.svg" },
+  { name: "React", level: 85, category: "frontend", image: "/skills/react.svg" },
+  { name: "TypeScript", level: 45, category: "frontend", image: "/skills/typescript.svg" },
+  { name: "Tailwind CSS", level: 80, category: "frontend", image: "/skills/tailwind.svg" },
+  { name: "Next.js", level: 40, category: "frontend", image: "/skills/nextjs.svg" },
 
   // Backend
-  { name: "Node.js", level: 70, category: "backend", image: "/skills/node.png" },
-  { name: "Express", level: 75, category: "backend", image: "/skills/express.png" },
-  { name: "MongoDB", level: 80, category: "backend", image: "/skills/mongodb.png" },
-  { name: "PostgreSQL", level: 65, category: "backend", image: "/skills/postgres.png" },
-  { name: "GraphQL", level: 60, category: "backend", image: "/skills/graphql.png" },
+  { name: "Node.js", level: 70, category: "backend", image: "/skills/node.svg" },
+  { name: "Express", level: 75, category: "backend", image: "/skills/express.svg" },
+  { name: "MongoDB", level: 80, category: "backend", image: "/skills/mongodb.svg" },
+  { name: "PostgreSQL", level: 65, category: "backend", image: "/skills/postgres.svg" },
+  { name: "GraphQL", level: 60, category: "backend", image: "/skills/graphql.svg" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools", image: "/skills/git.png" },
-  { name: "Docker", level: 70, category: "tools", image: "/skills/docker.png" },
-  { name: "Figma", level: 75, category: "tools", image: "/skills/figma.png" },
-  { name: "VS Code", level: 90, category: "tools", image: "/skills/vscode.png" },
+  { name: "Git/GitHub", level: 90, category: "tools", image: "/skills/git.svg" },
+  { name: "GitHub", level: 90, category: "tools", image: "/skills/github.svg" },
+  { name: "Docker", level: 70, category: "tools", image: "/skills/docker.svg" },
+  { name: "Figma", level: 75, category: "tools", image: "/skills/figma.svg" },
+  { name: "VS Code", level: 90, category: "tools", image: "/skills/vscode.svg" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
