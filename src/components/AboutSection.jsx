@@ -35,7 +35,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/Nikhil-Sutar-CV.zip"
+                href="/nikhil_cv.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 download
               >

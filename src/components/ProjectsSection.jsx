@@ -139,7 +139,7 @@ export const ProjectsSection = () => {
           </a>
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
-            href="/Nikhil-Sutar-CV.zip"
+            href="/nikhil_cv.pdf"
             download
           >
             Download CV
