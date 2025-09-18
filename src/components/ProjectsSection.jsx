@@ -28,6 +28,15 @@ const projects = [
     demoUrl: "https://bitess-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/Bitess",
   },
+  {
+    id: 4,
+    title: "Fleet.ai",
+    description: "AI SaaS Application - AI Powered tools for Content Generation, Editing and Processing",
+    image: "/projects/project4.png",
+    tags: ["PERN Stack", "Neon", "Gemini API"],
+    demoUrl: "https://fleetai-saas.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/Fleet.ai",
+  },
 ];
 
 
