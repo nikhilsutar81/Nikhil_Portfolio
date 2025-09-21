@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "SchedRx",
-    description: "Full-Stack Doctor Appointment Booking System with Three-Tier Authentication: Patients, Doctors, and Admin",
+    description: "Full-Stack Saas Doctor Appointment Booking System with Three-Tier Authentication: Patients, Doctors, and Admin",
     image: "/projects/project1.png",
     tags: ["MERN Stack", "TailwindCSS", "Razorpay"],
     demoUrl: "https://schedrx-client.vercel.app/",
@@ -21,6 +21,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "LeafyLane",
+    description: "Full Stack Grocery Delivery System build using MERN Stack and TailwindCSS pre-built UI Components",
+    image: "/projects/project3.png",
+    tags: ["MERN Stack", "Tawilwind CSs"],
+    demoUrl: "https://leafylane-client.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/LeafyLane",
+  },
+  {
+    id: 4,
     title: "Bitess",
     description: "Full-Stack Food Ordering and Delivery System with Real-Time Order Tracking and and Efficient Management",
     image: "/projects/project3.png",
@@ -29,7 +38,7 @@ const projects = [
   githubUrl: "https://github.com/nikhilsutar81/Bitess",
   },
   {
-    id: 4,
+    id: 5,
     title: "Fleet.ai",
     description: "AI SaaS Application - AI Powered tools for Content Generation, Editing and Processing",
     image: "/projects/project4.png",
