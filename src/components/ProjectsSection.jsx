@@ -22,9 +22,9 @@ const projects = [
   {
     id: 3,
     title: "LeafyLane",
-    description: "Full Stack Grocery Delivery System build using MERN Stack and TailwindCSS pre-built UI Components",
+    description: "Full Stack Grocery Delivery System build using MERN Stack and Tailwind CSS pre-built UI Components and Stripe",
     image: "/projects/project3.png",
-    tags: ["MERN Stack", "Tawilwind CSs"],
+    tags: ["MERN Stack", "Tawilwind CSS"],
     demoUrl: "https://leafylane-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/LeafyLane",
   },
