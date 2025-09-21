@@ -30,21 +30,21 @@ const projects = [
   },
   {
     id: 4,
-    title: "Bitess",
-    description: "Full-Stack Food Ordering and Delivery System with Real-Time Order Tracking and and Efficient Management",
-    image: "/projects/project3.png",
-    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
-    demoUrl: "https://bitess-client.vercel.app/",
-  githubUrl: "https://github.com/nikhilsutar81/Bitess",
-  },
-  {
-    id: 5,
     title: "Fleet.ai",
     description: "AI SaaS Application - AI Powered tools for Content Generation, Editing and Processing",
     image: "/projects/project4.png",
     tags: ["PERN Stack", "Neon", "Gemini API"],
     demoUrl: "https://fleetai-saas.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/Fleet.ai",
+  },
+  {
+    id: 5,
+    title: "Bitess",
+    description: "Full-Stack Food Ordering and Delivery System with Real-Time Order Tracking and and Efficient Management",
+    image: "/projects/project5.png",
+    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
+    demoUrl: "https://bitess-client.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/Bitess",
   },
 ];
 
