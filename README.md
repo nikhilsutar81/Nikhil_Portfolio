@@ -1,6 +1,6 @@
 <div align="center">
- <h1># Build a Modern Portfolio Website with React & TailwindCSS</h1>
-  <h3 align="center">Created a Stunning Developer Portfolio with Animations, Dark Mode, and Projects Showcase</h3>
+ <h1>My Personal Portfolio Website</h1>
+  <h3 align="center"># Build a Modern Portfolio Website with React and tailwindCSS along with Animations and Dark Mode</h3>
 </div>
 
 ---
