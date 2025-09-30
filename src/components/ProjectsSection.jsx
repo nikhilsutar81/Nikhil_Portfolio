@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "SchedRx",
-    description: "A Full-Stack SaaS Doctor Appointment Booking System built using the MERN Stack, with multi-level authentication and role-based dashboards for patients, doctors, and admins.",
+    description: "A Full-Stack SaaS Doctor Appointment Booking System with multi-level authentication and role-based dashboards for patients, doctors, and admins.",
     image: "/projects/project1.png",
     tags: ["MERN Stack", "TailwindCSS","Vercel"],
     demoUrl: "https://schedrx-client.vercel.app/",
@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: "EternaCart",
-    description: "A Full-Stack E-Commerce Platform built with the MERN Stack, featuring user authentication, product catalog, cart management and admin dashboard for order-product management..",
+    description: "A Full-Stack E-Commerce Platform featuring user authentication, product catalog, cart management and admin dashboard for order-product management..",
     image: "/projects/project2.png",
     tags: ["React", "NoSQL", "Vercel"],
     demoUrl: "https://eternacart-client.vercel.app/",
@@ -22,9 +22,9 @@ const projects = [
   {
     id: 3,
     title: "LeafyLane",
-    description: "A modern Full Stack Grocery Delivery System styled using Tailwind CSS pre-built UI Components featuring user authentication, product browsing and admin panel for order management.",
+    description: "A modern Full Stack Grocery Delivery System featuring user authentication, product browsing and admin panel for order management.",
     image: "/projects/project3.png",
-    tags: ["MERN Stack", "TawilwindCSS pre-built UI Components"],
+    tags: ["MERN Stack", "TawilwindCSS UI Components"],
     demoUrl: "https://leafylane-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/LeafyLane",
   },
