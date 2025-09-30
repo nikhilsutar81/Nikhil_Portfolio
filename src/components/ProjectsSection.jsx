@@ -13,9 +13,9 @@ const projects = [
   {
     id: 2,
     title: "EternaCart",
-    description: "Full-Stack E-Commerce Platform with Secure User Authentication, Product Management, and Payment Integration",
+    description: "A Full-Stack E-Commerce Platform built with the MERN Stack, featuring user authentication, product catalog, cart management.",
     image: "/projects/project2.png",
-    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
+    tags: ["React", "Express-Node.js", "NoSQL", "Vercel"],
     demoUrl: "https://eternacart-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/EternaCart",
   },
