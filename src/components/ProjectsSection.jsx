@@ -4,16 +4,16 @@ const projects = [
   {
     id: 1,
     title: "SchedRx",
-    description: "Full-Stack Saas Doctor Appointment Booking System with Three-Tier Authentication: Patients, Doctors, and Admin",
+    description: "A Full-Stack SaaS Doctor Appointment Booking System built using the MERN Stack, with multi-level authentication and role-based dashboards for patients, doctors, and admins.",
     image: "/projects/project1.png",
-    tags: ["MERN Stack", "TailwindCSS", "Razorpay"],
+    tags: ["MERN Stack", "TailwindCSS","Vercel"],
     demoUrl: "https://schedrx-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/SchedRx",
   },
   {
     id: 2,
     title: "EternaCart",
-    description: "A Full-Stack E-Commerce Platform built with the MERN Stack, featuring user authentication, product catalog, cart management.",
+    description: "A Full-Stack E-Commerce Platform built with the MERN Stack, featuring user authentication, product catalog, cart management and admin dashboard for order-product management..",
     image: "/projects/project2.png",
     tags: ["React", "NoSQL", "Vercel"],
     demoUrl: "https://eternacart-client.vercel.app/",
@@ -22,31 +22,22 @@ const projects = [
   {
     id: 3,
     title: "LeafyLane",
-    description: "Full Stack Grocery Delivery System build using MERN Stack and Tailwind CSS pre-built UI Components and Stripe",
+    description: "A modern Full Stack Grocery Delivery System styled using Tailwind CSS pre-built UI Components featuring user authentication, product browsing and admin panel for order management.",
     image: "/projects/project3.png",
-    tags: ["MERN Stack", "Tawilwind CSS"],
+    tags: ["MERN Stack", "TawilwindCSS pre-built UI Components"],
     demoUrl: "https://leafylane-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/LeafyLane",
   },
   {
     id: 4,
     title: "Fleet.ai",
-    description: "AI SaaS Application - AI Powered tools for Content Generation, Editing and Processing",
+    description: "AI-Powered SaaS Platform - AI tools for Article Generation, Blog Title Generation, Image Generation, Background remover, Image object remover and Resume Analyzer",
     image: "/projects/project4.png",
-    tags: ["PERN Stack", "Neon", "Gemini API"],
+    tags: ["PERN Stack", "NeonDB", "Gemini API"],
     demoUrl: "https://fleetai-saas.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/Fleet.ai",
   },
-  {
-    id: 5,
-    title: "Bitess",
-    description: "Full-Stack Food Ordering and Delivery System with Real-Time Order Tracking and and Efficient Management",
-    image: "/projects/project5.png",
-    tags: ["MERN Stack", "TailwindCSS", "Stripe"],
-    demoUrl: "https://bitess-client.vercel.app/",
-  githubUrl: "https://github.com/nikhilsutar81/Bitess",
-  },
-];
+  ];
 
 
 import { useState } from "react";
