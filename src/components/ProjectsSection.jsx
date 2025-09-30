@@ -24,7 +24,7 @@ const projects = [
     title: "LeafyLane",
     description: "A modern Full Stack Grocery Delivery System featuring user authentication, product browsing and admin panel for order management.",
     image: "/projects/project3.png",
-    tags: ["MERN Stack", "TawilwindCSS UI Components"],
+    tags: ["MERN Stack", "Tawilwind UI Components"],
     demoUrl: "https://leafylane-client.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/LeafyLane",
   },
