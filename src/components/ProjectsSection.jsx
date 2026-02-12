@@ -37,6 +37,15 @@ const projects = [
     demoUrl: "https://fleetai-saas.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/Fleet.ai",
   },
+  {
+    id: 5,
+    title: "Quick Chat",
+    description: "Full Stack Real-Time Chat Application built using MERN Stack and Socket.io",
+    image: "/projects/project5.png",
+    tags: ["MERN Stack", "Socket.io"],
+    demoUrl: "https://quickchat-realtimechatapp.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/QuickChat",
+  },
   ];
 
 
