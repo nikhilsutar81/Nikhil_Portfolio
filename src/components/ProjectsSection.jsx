@@ -46,6 +46,15 @@ const projects = [
     demoUrl: "https://quickchat-realtimechatapp.vercel.app/",
   githubUrl: "https://github.com/nikhilsutar81/QuickChat",
   },
+  {
+    id: 6,
+    title: "Project Management",
+    description: "Full Stack Project management application for managing projects & tasks within an organization",
+    image: "/projects/project6.png",
+    tags: ["React.js", "Inngest", "NeonPostgresSQL"],
+    demoUrl: "https://project-management-client-ivory.vercel.app//",
+  githubUrl: "https://github.com/nikhilsutar81/project-management-main",
+  },
   ];
 
 
