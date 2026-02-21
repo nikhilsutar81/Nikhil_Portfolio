@@ -3,21 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "UGC.AI",
-    description: "Full Stack AI Powered UGC Short Video / Image Ads Generator using PERN Stack, Real-world AI SaaS project",
-    image: "/projects/project1.png",
-    tags: ["PreBuiltUI", "Clerk", "Sentry", "Neon PostgresSQL", "Google Gemini API"],
-    demoUrl: "/",
-  githubUrl: "",
-  },
-  {
-    id: 2,
     title: "Go Cart",
     description: "Full Stack AI Multi-Vendor E-Commerce App using Next js and PERN Stack",
-    image: "/projects/project2.png",
+    image: "/projects/project1.png",
     tags: ["Clerk", "Neon PostgresSQL", "Inngest", "ImageKit", "Google Gemini API"],
-    demoUrl: "/",
-  githubUrl: "",
+    demoUrl: "gocart-shop-smarter.vercel.app/",
+  githubUrl: "https://github.com/nikhilsutar81/GoCart",
   },
   {
     id: 3,
